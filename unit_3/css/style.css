@@ -1,0 +1,16 @@
+body{
+	color:#7476FF;
+}
+h1{
+	font-weight:bold;
+	color:#7F0000;
+}
+
+ul {
+	text-align: center;
+    list-style-type: none;
+}
+
+body.main-body h4 {
+	font-style: italic;
+}
