@@ -52,7 +52,7 @@ img {
   width: 480px;
 }
 
-#logo {
+#hero {
   background: #142a35;
 }
 
@@ -179,7 +179,7 @@ nav {
 
 nav a {
   margin: 1em 1em 1em;
-
+  
 }
 
 h2 {
@@ -237,4 +237,3 @@ h2 {
      width: 90%;
    }
 }
-
