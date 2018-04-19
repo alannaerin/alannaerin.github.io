@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 26px;
+  padding: 13px 0;
+  color: #132639;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #132639; 
+}
+
+div {
+  padding: 30px;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-top: 1px solid black;
+  padding: 18px 0;
+  margin-top: 40px;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 480px;
+}
+
+#hero {
+  background: #142a35;
+}
+
+section {
+  background: #d1e0e0;
+  color: white;
+  overflow: auto;
+}
+
+#about {
+  font-size: 28px;
+  width: 40%;
+  display: inline-block;
+}
+
+#image {
+  font-size: 22px;
+  width: 45%;
+  float: right;
+  background: #d1e0e0;
+}
+
+#easy {
+  font-size: 22px;
+  width: 40%;
+  float: left;
+  background: #d1e0e0;
+}
+
+#prepare {
+  font-size: 22px;
+  width: 40%;
+  float: right;
+  background: #d1e0e0;
+}
+
+#instructor {
+  font-size: 22px;
+  width: 40%;
+  float: left;
+  background: #d1e0e0;
+}
+
+#perform {
+  font-size: 22px;
+  width: 40%;
+  float: right;
+  background: #d1e0e0;
+}
+
+@media only screen and (max-width: 803px) {
+nav {
+    float: none;
+    font-size: 1em;
+  }
+
+  nav a {
+      margin: 0 1.6em .75em 0;
+      float: none;
+  }
+
+ h2 {
+ font-size: 1em;
+ display: inline;
+}
+ 
+  p {
+  margin: 1.8em .6em 0;
+  font-size: 1em;
+  }
+
+   img {
+     width: 230px;
+   }
+
+ section, div {
+   width: 100%;
+ }
+  
+  #about {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+   
+   #image {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #easy {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #prepare {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #instructor {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #perform {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+  }
+
+@media only screen and (max-width: 480px) {
+nav {
+   display: block;
+   text-align: center;
+   font-size: 1em;
+ }
+
+nav a {
+  margin: 1em 1em 1em;
+  
+}
+
+h2 {
+ font-size: 1em;
+ display: inline;
+}
+ 
+  p {
+  margin: 1.8em .6em 0;
+  font-size: 1em;
+  }
+
+   img {
+     width: 230px;
+   }
+
+ section, div {
+   width: 100%;
+ }
+  
+  #about {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+   
+   #image {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #easy {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #prepare {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #instructor {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+
+   #perform {
+     float: none;
+     font-size: 1em;
+     width: 90%;
+   }
+}
